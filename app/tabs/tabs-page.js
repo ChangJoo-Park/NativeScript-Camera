@@ -31,5 +31,9 @@ function onSelectedIndexChanged(args) {
     bindingContext.set("title", selectedTabViewItem.title);
 }
 
+function onCamera (args) {
+}
+
 exports.onSelectedIndexChanged = onSelectedIndexChanged;
 exports.onNavigatingTo = onNavigatingTo;
+exports.onCamera = onCamera;

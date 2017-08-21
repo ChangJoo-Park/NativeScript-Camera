@@ -6,6 +6,9 @@
   xmlns:settings="/tabs/settings">
     <Page.actionBar>
         <ActionBar class="action-bar">
+          <ActionItem tap="onCamera"
+              ios.systemIcon="9" ios.position="left"
+              android.systemIcon="ic_menu_camera" android.position="actionBar"/>
           <Label text="{{ title }}" class="action-bar-title" />
         </ActionBar>
     </Page.actionBar>
