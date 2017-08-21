@@ -9,4 +9,5 @@ if (global.TNS_WEBPACK) {
     global.registerModule("home/Home", () => require("./home/HomeView"));
     global.registerModule("search/Search", () => require("./search/SearchView"));
     global.registerModule("settings/Settings", () => require("./settings/SettingsView"));
+    global.registerModule("camera-preview/CameraPreviewView", () => require("./camera-preview/CameraPreviewView"));
 }
